@@ -1,0 +1,6 @@
+Uncertainties:
+
+-Vcap connected with through cap to Vss on motor driver pic
+-Jumpered cap on MCLR pin (Pavlo doesn't have one)
+-Can we make the current limit on DRV lower (like 0.5 A). Table 2 only goes as low as 1.5.
+-Does it make sense to use traces wider than pin width for high current stuff?
