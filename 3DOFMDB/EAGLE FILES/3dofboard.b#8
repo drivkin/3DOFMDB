@@ -6140,36 +6140,58 @@ design rules under a new name.</description>
 </signal>
 <signal name="B1A_IN">
 <contactref element="U$4" pad="27"/>
+<contactref element="U4" pad="85"/>
+<wire x1="13.8571" y1="34.055" x2="27.768396875" y2="26.2001" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B1A_EN">
 <contactref element="U$4" pad="26"/>
+<contactref element="U4" pad="86"/>
+<wire x1="13.8571" y1="33.405" x2="27.368396875" y2="26.2001" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B1B_IN">
 <contactref element="U$4" pad="25"/>
+<contactref element="U4" pad="87"/>
+<wire x1="13.8571" y1="32.755" x2="26.9684" y2="26.2001" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B1B_EN">
 <contactref element="U$4" pad="24"/>
+<contactref element="U4" pad="88"/>
+<wire x1="13.8571" y1="32.105" x2="26.5684" y2="26.2001" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B2A_IN">
 <contactref element="U$4" pad="23"/>
+<contactref element="U4" pad="99"/>
+<wire x1="13.8571" y1="31.455" x2="22.168409375" y2="26.2001" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B2A_EN">
 <contactref element="U$4" pad="22"/>
+<contactref element="U4" pad="100"/>
+<wire x1="13.8571" y1="30.805" x2="21.768409375" y2="26.2001" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B2B_IN">
 <contactref element="U$4" pad="21"/>
+<contactref element="U4" pad="3"/>
+<wire x1="19.9517" y1="23.583390625" x2="13.8571" y2="30.155" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B2B_EN">
 <contactref element="U$4" pad="20"/>
+<contactref element="U4" pad="4"/>
+<wire x1="19.9517" y1="23.18339375" x2="13.8571" y2="29.505" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAULT_8844_1">
 <contactref element="U$4" pad="18"/>
+<contactref element="U4" pad="5"/>
+<wire x1="19.9517" y1="22.78339375" x2="13.8571" y2="28.205" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SLEEP_8844_1">
 <contactref element="U$4" pad="17"/>
+<contactref element="U4" pad="6"/>
+<wire x1="19.9517" y1="22.38339375" x2="13.8571" y2="27.555" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET_8844_1">
 <contactref element="U$4" pad="16"/>
+<contactref element="U4" pad="7"/>
+<wire x1="19.9517" y1="21.98339375" x2="13.8571" y2="26.905" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$60">
 <contactref element="U$4" pad="15"/>
@@ -6293,24 +6315,28 @@ design rules under a new name.</description>
 </signal>
 <signal name="B3A_IN">
 <contactref element="U$5" pad="27"/>
-<contactref element="U4" pad="10"/>
-<wire x1="13.8571" y1="17.8752" x2="19.9517" y2="20.783396875" width="0" layer="19" extent="1-1"/>
+<contactref element="U4" pad="9"/>
+<wire x1="13.8571" y1="17.8752" x2="19.9517" y2="21.183396875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B3A_EN">
 <contactref element="U$5" pad="26"/>
+<contactref element="U4" pad="10"/>
+<wire x1="13.8571" y1="17.2252" x2="19.9517" y2="20.783396875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B3B_IN">
 <contactref element="U$5" pad="25"/>
-<contactref element="U4" pad="12"/>
-<wire x1="13.8571" y1="16.5752" x2="19.9517" y2="19.9834" width="0" layer="19" extent="1-1"/>
+<contactref element="U4" pad="11"/>
+<wire x1="13.8571" y1="16.5752" x2="19.9517" y2="20.383396875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B3B_EN">
 <contactref element="U$5" pad="24"/>
+<contactref element="U4" pad="12"/>
+<wire x1="13.8571" y1="15.9252" x2="19.9517" y2="19.9834" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B4A_IN">
 <contactref element="U$5" pad="23"/>
-<contactref element="U4" pad="18"/>
-<wire x1="13.8571" y1="15.2752" x2="19.9517" y2="17.583403125" width="0" layer="19" extent="1-1"/>
+<contactref element="U4" pad="16"/>
+<wire x1="13.8571" y1="15.2752" x2="19.9517" y2="18.383403125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B4A_EN">
 <contactref element="U$5" pad="22"/>
@@ -6319,22 +6345,30 @@ design rules under a new name.</description>
 </signal>
 <signal name="B4B_IN">
 <contactref element="U$5" pad="21"/>
-<contactref element="U4" pad="19"/>
-<wire x1="13.8571" y1="13.9752" x2="19.9517" y2="17.18340625" width="0" layer="19" extent="1-1"/>
+<contactref element="U4" pad="18"/>
+<wire x1="13.8571" y1="13.9752" x2="19.9517" y2="17.583403125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B4B_EN">
 <contactref element="U$5" pad="20"/>
 <contactref element="U4" pad="26"/>
-<wire x1="13.8571" y1="13.3252" x2="21.768409375" y2="12.9667" width="0" layer="19" extent="1-1"/>
+<contactref element="U4" pad="19"/>
+<wire x1="19.9517" y1="17.18340625" x2="21.768409375" y2="12.9667" width="0" layer="19" extent="1-1"/>
+<wire x1="13.8571" y1="13.3252" x2="19.9517" y2="17.18340625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAULT_8844_2">
 <contactref element="U$5" pad="18"/>
+<contactref element="U4" pad="21"/>
+<wire x1="13.8571" y1="12.0252" x2="19.9517" y2="16.38340625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SLEEP_8844_2">
 <contactref element="U$5" pad="17"/>
+<contactref element="U4" pad="22"/>
+<wire x1="13.8571" y1="11.3752" x2="19.9517" y2="15.98340625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET_8844_2">
 <contactref element="U$5" pad="16"/>
+<contactref element="U4" pad="23"/>
+<wire x1="13.8571" y1="10.7252" x2="19.9517" y2="15.583409375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="U$5" pad="15"/>
@@ -6593,23 +6627,8 @@ design rules under a new name.</description>
 <wire x1="12.9794" y1="6.223" x2="7.366" y2="6.223" width="0.2286" layer="1"/>
 <wire x1="7.366" y1="6.223" x2="4.4958" y2="3.3528" width="0.2286" layer="1"/>
 </signal>
-<signal name="N$33">
-<contactref element="U4" pad="23"/>
-</signal>
-<signal name="N$35">
-<contactref element="U4" pad="22"/>
-</signal>
-<signal name="N$36">
-<contactref element="U4" pad="21"/>
-</signal>
 <signal name="N$38">
 <contactref element="U4" pad="20"/>
-</signal>
-<signal name="N$42">
-<contactref element="U4" pad="16"/>
-</signal>
-<signal name="N$44">
-<contactref element="U4" pad="11"/>
 </signal>
 </signals>
 <errors>

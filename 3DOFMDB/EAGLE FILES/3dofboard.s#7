@@ -12478,6 +12478,7 @@ KEMET T / EIA 3528-12</description>
 <part name="C69" library="ASL" deviceset="CAP" device="0805" value="0.47u"/>
 <part name="J2" library="ASL" deviceset="M16" device="DUAL_ROW"/>
 <part name="PICKIT3" library="ASL" deviceset="M06" device="LOCK"/>
+<part name="R43" library="ASL" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -12652,6 +12653,7 @@ KEMET T / EIA 3528-12</description>
 <instance part="C69" gate="G$1" x="-528.32" y="-83.82"/>
 <instance part="J2" gate="G$1" x="-289.56" y="-132.08" rot="R90"/>
 <instance part="PICKIT3" gate="G$1" x="-482.6" y="-38.1"/>
+<instance part="R43" gate="G$1" x="-447.04" y="-25.4" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -13408,6 +13410,11 @@ KEMET T / EIA 3528-12</description>
 <wire x1="-271.78" y1="-121.92" x2="-271.78" y2="-111.76" width="0.1524" layer="91"/>
 <label x="-271.78" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="PICKIT3" gate="G$1" pin="3"/>
+<wire x1="-477.52" y1="-35.56" x2="-462.28" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-464.82" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -13622,6 +13629,16 @@ KEMET T / EIA 3528-12</description>
 <pinref part="POWER2" gate="G$1" pin="4"/>
 <wire x1="-383.54" y1="312.42" x2="-370.84" y2="312.42" width="0.1524" layer="91"/>
 <label x="-370.84" y="312.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PICKIT3" gate="G$1" pin="2"/>
+<wire x1="-477.52" y1="-33.02" x2="-462.28" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-464.82" y="-33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R43" gate="G$1" pin="2"/>
+<wire x1="-447.04" y1="-20.32" x2="-447.04" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-447.04" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCAP" class="0">
@@ -15805,22 +15822,12 @@ KEMET T / EIA 3528-12</description>
 <wire x1="-551.18" y1="-43.18" x2="-538.48" y2="-43.18" width="0.1524" layer="91"/>
 <label x="-541.02" y="-43.18" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U4" gate="A" pin="PGEC1/AN1/RPB1/RB1"/>
-<wire x1="-414.02" y1="-2.54" x2="-421.64" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-421.64" y="-2.54" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="B4B_IN" class="0">
 <segment>
 <pinref part="U$5" gate="A" pin="IN4"/>
 <wire x1="-551.18" y1="-48.26" x2="-538.48" y2="-48.26" width="0.1524" layer="91"/>
 <label x="-543.56" y="-48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U4" gate="A" pin="PGED1/AN0/RPB0/RB0"/>
-<wire x1="-414.02" y1="-5.08" x2="-421.64" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-421.64" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B4B_EN" class="0">
@@ -16009,6 +16016,38 @@ KEMET T / EIA 3528-12</description>
 <pinref part="J2" gate="G$1" pin="12"/>
 <wire x1="-279.4" y1="-121.92" x2="-279.4" y2="-111.76" width="0.1524" layer="91"/>
 <label x="-279.4" y="-114.3" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="MCLR_BP" class="0">
+<segment>
+<pinref part="PICKIT3" gate="G$1" pin="1"/>
+<label x="-464.82" y="-30.48" size="1.778" layer="95"/>
+<pinref part="R43" gate="G$1" pin="1"/>
+<wire x1="-447.04" y1="-30.48" x2="-477.52" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PGD_BP" class="0">
+<segment>
+<pinref part="PICKIT3" gate="G$1" pin="4"/>
+<wire x1="-477.52" y1="-38.1" x2="-462.28" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-464.82" y="-38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="PGED1/AN0/RPB0/RB0"/>
+<wire x1="-414.02" y1="-5.08" x2="-421.64" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-421.64" y="-5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PGC_BP" class="0">
+<segment>
+<pinref part="PICKIT3" gate="G$1" pin="5"/>
+<wire x1="-477.52" y1="-40.64" x2="-462.28" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-464.82" y="-40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="PGEC1/AN1/RPB1/RB1"/>
+<wire x1="-414.02" y1="-2.54" x2="-421.64" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-421.64" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

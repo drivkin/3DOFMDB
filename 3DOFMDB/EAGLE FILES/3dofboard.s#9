@@ -12477,6 +12477,7 @@ KEMET T / EIA 3528-12</description>
 <part name="SL2" library="ASL" deviceset="M04" device="LOCK"/>
 <part name="C69" library="ASL" deviceset="CAP" device="0805" value="0.47u"/>
 <part name="J2" library="ASL" deviceset="M16" device="DUAL_ROW"/>
+<part name="PICKIT3" library="ASL" deviceset="M06" device="LOCK"/>
 </parts>
 <sheets>
 <sheet>
@@ -12649,7 +12650,8 @@ KEMET T / EIA 3528-12</description>
 </instance>
 <instance part="SL2" gate="G$1" x="-678.18" y="-45.72"/>
 <instance part="C69" gate="G$1" x="-528.32" y="-83.82"/>
-<instance part="J2" gate="G$1" x="-492.76" y="-7.62"/>
+<instance part="J2" gate="G$1" x="-289.56" y="-132.08" rot="R90"/>
+<instance part="PICKIT3" gate="G$1" x="-480.06" y="-73.66"/>
 </instances>
 <busses>
 </busses>
@@ -13398,13 +13400,13 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="-482.6" y1="10.16" x2="-472.44" y2="10.16" width="0.1524" layer="91"/>
-<label x="-474.98" y="10.16" size="1.778" layer="95"/>
+<wire x1="-307.34" y1="-121.92" x2="-307.34" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-307.34" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="15"/>
-<wire x1="-482.6" y1="-25.4" x2="-472.44" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-474.98" y="-25.4" size="1.778" layer="95"/>
+<wire x1="-271.78" y1="-121.92" x2="-271.78" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-271.78" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -15849,8 +15851,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="-482.6" y1="7.62" x2="-472.44" y2="7.62" width="0.1524" layer="91"/>
-<label x="-474.98" y="7.62" size="1.778" layer="95"/>
+<wire x1="-304.8" y1="-121.92" x2="-304.8" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-304.8" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RPB8" class="0">
@@ -15861,8 +15863,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
-<wire x1="-482.6" y1="0" x2="-472.44" y2="0" width="0.1524" layer="91"/>
-<label x="-474.98" y="0" size="1.778" layer="95"/>
+<wire x1="-297.18" y1="-121.92" x2="-297.18" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-297.18" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RPB9" class="0">
@@ -15873,8 +15875,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="6"/>
-<wire x1="-482.6" y1="-2.54" x2="-472.44" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-474.98" y="-2.54" size="1.778" layer="95"/>
+<wire x1="-294.64" y1="-121.92" x2="-294.64" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-294.64" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RPB10" class="0">
@@ -15885,8 +15887,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="7"/>
-<wire x1="-482.6" y1="-5.08" x2="-472.44" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-474.98" y="-5.08" size="1.778" layer="95"/>
+<wire x1="-292.1" y1="-121.92" x2="-292.1" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-292.1" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RPF13" class="0">
@@ -15897,8 +15899,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="9"/>
-<wire x1="-482.6" y1="-10.16" x2="-472.44" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-474.98" y="-10.16" size="1.778" layer="95"/>
+<wire x1="-287.02" y1="-121.92" x2="-287.02" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-287.02" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RPF12" class="0">
@@ -15909,8 +15911,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="10"/>
-<wire x1="-482.6" y1="-12.7" x2="-472.44" y2="-12.7" width="0.1524" layer="91"/>
-<label x="-474.98" y="-12.7" size="1.778" layer="95"/>
+<wire x1="-284.48" y1="-121.92" x2="-284.48" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-284.48" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RPB14" class="0">
@@ -15921,8 +15923,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="13"/>
-<wire x1="-482.6" y1="-20.32" x2="-472.44" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-474.98" y="-20.32" size="1.778" layer="95"/>
+<wire x1="-276.86" y1="-121.92" x2="-276.86" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-276.86" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RPB15" class="0">
@@ -15933,8 +15935,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="14"/>
-<wire x1="-482.6" y1="-22.86" x2="-472.44" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-474.98" y="-22.86" size="1.778" layer="95"/>
+<wire x1="-274.32" y1="-121.92" x2="-274.32" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-274.32" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RPD14" class="0">
@@ -15945,8 +15947,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="16"/>
-<wire x1="-482.6" y1="-27.94" x2="-472.44" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-474.98" y="-27.94" size="1.778" layer="95"/>
+<wire x1="-269.24" y1="-121.92" x2="-269.24" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-269.24" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="A9" class="0">
@@ -15957,8 +15959,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="-482.6" y1="5.08" x2="-472.44" y2="5.08" width="0.1524" layer="91"/>
-<label x="-474.98" y="5.08" size="1.778" layer="95"/>
+<wire x1="-302.26" y1="-121.92" x2="-302.26" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-302.26" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="A10" class="0">
@@ -15969,8 +15971,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="-482.6" y1="2.54" x2="-472.44" y2="2.54" width="0.1524" layer="91"/>
-<label x="-474.98" y="2.54" size="1.778" layer="95"/>
+<wire x1="-299.72" y1="-121.92" x2="-299.72" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-299.72" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="B11" class="0">
@@ -15981,8 +15983,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="8"/>
-<wire x1="-482.6" y1="-7.62" x2="-472.44" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-474.98" y="-7.62" size="1.778" layer="95"/>
+<wire x1="-289.56" y1="-121.92" x2="-289.56" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-289.56" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="B12" class="0">
@@ -15993,8 +15995,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="11"/>
-<wire x1="-482.6" y1="-15.24" x2="-472.44" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-474.98" y="-15.24" size="1.778" layer="95"/>
+<wire x1="-281.94" y1="-121.92" x2="-281.94" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-281.94" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="B13" class="0">
@@ -16005,8 +16007,8 @@ KEMET T / EIA 3528-12</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="12"/>
-<wire x1="-482.6" y1="-17.78" x2="-472.44" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-474.98" y="-17.78" size="1.778" layer="95"/>
+<wire x1="-279.4" y1="-121.92" x2="-279.4" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-279.4" y="-114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>

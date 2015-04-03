@@ -12651,7 +12651,7 @@ KEMET T / EIA 3528-12</description>
 <instance part="SL2" gate="G$1" x="-678.18" y="-45.72"/>
 <instance part="C69" gate="G$1" x="-528.32" y="-83.82"/>
 <instance part="J2" gate="G$1" x="-289.56" y="-132.08" rot="R90"/>
-<instance part="PICKIT3" gate="G$1" x="-480.06" y="-73.66"/>
+<instance part="PICKIT3" gate="G$1" x="-482.6" y="-38.1"/>
 </instances>
 <busses>
 </busses>

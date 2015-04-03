@@ -12479,6 +12479,8 @@ KEMET T / EIA 3528-12</description>
 <part name="J2" library="ASL" deviceset="M16" device="DUAL_ROW"/>
 <part name="PICKIT3" library="ASL" deviceset="M06" device="LOCK"/>
 <part name="R43" library="ASL" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R44" library="ASL" deviceset="RESISTOR" device="0805-RES" value="75k"/>
+<part name="R45" library="ASL" deviceset="RESISTOR" device="0805-RES" value="25k"/>
 </parts>
 <sheets>
 <sheet>
@@ -12654,6 +12656,8 @@ KEMET T / EIA 3528-12</description>
 <instance part="J2" gate="G$1" x="-289.56" y="-132.08" rot="R90"/>
 <instance part="PICKIT3" gate="G$1" x="-482.6" y="-38.1"/>
 <instance part="R43" gate="G$1" x="-447.04" y="-25.4" rot="R90"/>
+<instance part="R44" gate="G$1" x="-462.28" y="35.56" rot="R270"/>
+<instance part="R45" gate="G$1" x="-462.28" y="20.32" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -13415,6 +13419,11 @@ KEMET T / EIA 3528-12</description>
 <wire x1="-477.52" y1="-35.56" x2="-462.28" y2="-35.56" width="0.1524" layer="91"/>
 <label x="-464.82" y="-35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R45" gate="G$1" pin="2"/>
+<wire x1="-462.28" y1="15.24" x2="-462.28" y2="12.7" width="0.1524" layer="91"/>
+<label x="-462.28" y="12.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -14105,6 +14114,12 @@ KEMET T / EIA 3528-12</description>
 <pinref part="C68" gate="G$1" pin="1"/>
 <wire x1="-655.32" y1="-30.48" x2="-655.32" y2="-33.02" width="0.1524" layer="91"/>
 <label x="-655.32" y="-33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R44" gate="G$1" pin="1"/>
+<wire x1="-462.28" y1="40.64" x2="-462.28" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-459.74" y1="45.72" x2="-462.28" y2="45.72" width="0.1524" layer="91"/>
+<label x="-462.28" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -16105,6 +16120,22 @@ KEMET T / EIA 3528-12</description>
 <pinref part="U4" gate="A" pin="AN45/C1INA/RPB5/RB5"/>
 <wire x1="-414.02" y1="7.62" x2="-421.64" y2="7.62" width="0.1524" layer="91"/>
 <label x="-421.64" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BAT_MEAS_BP" class="0">
+<segment>
+<pinref part="R44" gate="G$1" pin="2"/>
+<pinref part="R45" gate="G$1" pin="1"/>
+<wire x1="-462.28" y1="30.48" x2="-462.28" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-462.28" y1="27.94" x2="-462.28" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-462.28" y1="27.94" x2="-452.12" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-462.28" y="27.94"/>
+<label x="-454.66" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="*EBIWE/AN20/RPC3/PMWR/RC3"/>
+<wire x1="-414.02" y1="38.1" x2="-434.34" y2="38.1" width="0.1524" layer="91"/>
+<label x="-434.34" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
