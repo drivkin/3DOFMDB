@@ -15494,12 +15494,22 @@ KEMET T / EIA 3528-12</description>
 <wire x1="-528.32" y1="121.92" x2="-515.62" y2="121.92" width="0.1524" layer="91"/>
 <label x="-520.7" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="A" pin="EBID11/ETXD1/RPF0/PMD11/RF0"/>
+<wire x1="-170.18" y1="17.78" x2="-160.02" y2="17.78" width="0.1524" layer="91"/>
+<label x="-162.56" y="17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B1A_EN" class="0">
 <segment>
 <pinref part="U$4" gate="A" pin="EN1"/>
 <wire x1="-528.32" y1="116.84" x2="-513.08" y2="116.84" width="0.1524" layer="91"/>
 <label x="-520.7" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="EBID10/ETXD0/RPF1/PMD10/RF1"/>
+<wire x1="-170.18" y1="20.32" x2="-160.02" y2="20.32" width="0.1524" layer="91"/>
+<label x="-162.56" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B1B_IN" class="0">
@@ -15508,12 +15518,22 @@ KEMET T / EIA 3528-12</description>
 <wire x1="-528.32" y1="111.76" x2="-515.62" y2="111.76" width="0.1524" layer="91"/>
 <label x="-520.7" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="A" pin="EBID9/ETXERR/RPG1/PMD9/RG1"/>
+<wire x1="-170.18" y1="22.86" x2="-160.02" y2="22.86" width="0.1524" layer="91"/>
+<label x="-162.56" y="22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B1B_EN" class="0">
 <segment>
 <pinref part="U$4" gate="A" pin="EN2"/>
 <wire x1="-528.32" y1="106.68" x2="-515.62" y2="106.68" width="0.1524" layer="91"/>
 <label x="-520.7" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="EBID8/RPG0/PMD8/RG0"/>
+<wire x1="-170.18" y1="25.4" x2="-160.02" y2="25.4" width="0.1524" layer="91"/>
+<label x="-162.56" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B2A_IN" class="0">
@@ -15522,12 +15542,22 @@ KEMET T / EIA 3528-12</description>
 <wire x1="-528.32" y1="101.6" x2="-515.62" y2="101.6" width="0.1524" layer="91"/>
 <label x="-520.7" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="A" pin="EBID3/RPE3/PMD3/RE3"/>
+<wire x1="-170.18" y1="53.34" x2="-160.02" y2="53.34" width="0.1524" layer="91"/>
+<label x="-162.56" y="53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B2A_EN" class="0">
 <segment>
 <pinref part="U$4" gate="A" pin="EN3"/>
 <wire x1="-528.32" y1="96.52" x2="-515.62" y2="96.52" width="0.1524" layer="91"/>
 <label x="-518.16" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="EBID4/AN18/PMD4/RE4"/>
+<wire x1="-170.18" y1="55.88" x2="-160.02" y2="55.88" width="0.1524" layer="91"/>
+<label x="-162.56" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B2B_IN" class="0">
@@ -15536,12 +15566,22 @@ KEMET T / EIA 3528-12</description>
 <wire x1="-528.32" y1="91.44" x2="-515.62" y2="91.44" width="0.1524" layer="91"/>
 <label x="-520.7" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="A" pin="EBID5/AN17/RPE5/PMD5/RE5"/>
+<wire x1="-414.02" y1="50.8" x2="-421.64" y2="50.8" width="0.1524" layer="91"/>
+<label x="-421.64" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B2B_EN" class="0">
 <segment>
 <pinref part="U$4" gate="A" pin="EN4"/>
 <wire x1="-528.32" y1="86.36" x2="-515.62" y2="86.36" width="0.1524" layer="91"/>
 <label x="-518.16" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="EBID6/AN16/PMD6/RE6"/>
+<wire x1="-414.02" y1="48.26" x2="-421.64" y2="48.26" width="0.1524" layer="91"/>
+<label x="-421.64" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FAULT_8844_1" class="0">
@@ -15550,6 +15590,11 @@ KEMET T / EIA 3528-12</description>
 <wire x1="-528.32" y1="76.2" x2="-513.08" y2="76.2" width="0.1524" layer="91"/>
 <label x="-518.16" y="76.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="A" pin="EBID7/AN15/PMD7/RE7"/>
+<wire x1="-414.02" y1="45.72" x2="-421.64" y2="45.72" width="0.1524" layer="91"/>
+<label x="-421.64" y="45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SLEEP_8844_1" class="0">
 <segment>
@@ -15557,12 +15602,22 @@ KEMET T / EIA 3528-12</description>
 <wire x1="-528.32" y1="71.12" x2="-515.62" y2="71.12" width="0.1524" layer="91"/>
 <label x="-518.16" y="71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="A" pin="EBIA6/AN22/RPC1/PMA6/RC1"/>
+<wire x1="-414.02" y1="43.18" x2="-421.64" y2="43.18" width="0.1524" layer="91"/>
+<label x="-421.64" y="43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RESET_8844_1" class="0">
 <segment>
 <pinref part="U$4" gate="A" pin="NRESET"/>
 <wire x1="-528.32" y1="66.04" x2="-515.62" y2="66.04" width="0.1524" layer="91"/>
 <label x="-518.16" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="EBIA12/AN21/RPC2/PMA12/RC2"/>
+<wire x1="-414.02" y1="40.64" x2="-421.64" y2="40.64" width="0.1524" layer="91"/>
+<label x="-421.64" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -16050,72 +16105,6 @@ KEMET T / EIA 3528-12</description>
 <pinref part="U4" gate="A" pin="AN45/C1INA/RPB5/RB5"/>
 <wire x1="-414.02" y1="7.62" x2="-421.64" y2="7.62" width="0.1524" layer="91"/>
 <label x="-421.64" y="7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$33" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="EBID11/ETXD1/RPF0/PMD11/RF0"/>
-<wire x1="-170.18" y1="17.78" x2="-160.02" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="EBID10/ETXD0/RPF1/PMD10/RF1"/>
-<wire x1="-170.18" y1="20.32" x2="-160.02" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="EBID9/ETXERR/RPG1/PMD9/RG1"/>
-<wire x1="-170.18" y1="22.86" x2="-160.02" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="EBID8/RPG0/PMD8/RG0"/>
-<wire x1="-170.18" y1="25.4" x2="-160.02" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="EBID3/RPE3/PMD3/RE3"/>
-<wire x1="-170.18" y1="53.34" x2="-160.02" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="EBID4/AN18/PMD4/RE4"/>
-<wire x1="-170.18" y1="55.88" x2="-160.02" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="EBID5/AN17/RPE5/PMD5/RE5"/>
-<wire x1="-414.02" y1="50.8" x2="-421.64" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="EBID6/AN16/PMD6/RE6"/>
-<wire x1="-414.02" y1="48.26" x2="-421.64" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="EBID7/AN15/PMD7/RE7"/>
-<wire x1="-414.02" y1="45.72" x2="-421.64" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="EBIA6/AN22/RPC1/PMA6/RC1"/>
-<wire x1="-414.02" y1="43.18" x2="-421.64" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="EBIA12/AN21/RPC2/PMA12/RC2"/>
-<wire x1="-414.02" y1="40.64" x2="-421.64" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
