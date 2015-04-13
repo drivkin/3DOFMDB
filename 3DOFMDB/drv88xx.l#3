@@ -135,22 +135,6 @@
 <rectangle x1="-3.075" y1="2.25" x2="-2.775" y2="3.3" layer="51" rot="R180"/>
 <rectangle x1="-3.725" y1="2.25" x2="-3.425" y2="3.3" layer="51" rot="R180"/>
 <rectangle x1="-4.375" y1="2.25" x2="-4.075" y2="3.3" layer="51" rot="R180"/>
-<pad name="P$1" x="-2.032" y="1.016" drill="0.3048" shape="square"/>
-<pad name="P$2" x="-2.032" y="0" drill="0.3048" shape="square"/>
-<pad name="P$3" x="-2.032" y="-1.016" drill="0.3048" shape="square"/>
-<pad name="P$4" x="-1.016" y="1.016" drill="0.3048" shape="square"/>
-<pad name="P$5" x="-1.016" y="0" drill="0.3048" shape="square"/>
-<pad name="P$6" x="-1.016" y="-1.016" drill="0.3048" shape="square"/>
-<pad name="P$7" x="0" y="-1.016" drill="0.3048" shape="square"/>
-<pad name="P$9" x="0" y="1.016" drill="0.3048" shape="square"/>
-<pad name="P$10" x="1.016" y="1.016" drill="0.3048" shape="square"/>
-<pad name="P$11" x="1.016" y="0" drill="0.3048" shape="square"/>
-<pad name="P$12" x="1.016" y="-1.016" drill="0.3048" shape="square"/>
-<pad name="P$13" x="2.032" y="-1.016" drill="0.3048" shape="square"/>
-<pad name="P$14" x="2.032" y="0" drill="0.3048" shape="square"/>
-<pad name="P$15" x="2.032" y="1.016" drill="0.3048" shape="square"/>
-<smd name="P$8" x="0" y="0" dx="5" dy="3" layer="16"/>
-<pad name="P$16" x="0" y="0" drill="0.3048" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -243,7 +227,7 @@
 <connect gate="G$1" pin="FAULT" pad="18"/>
 <connect gate="G$1" pin="GND_0" pad="14"/>
 <connect gate="G$1" pin="GND_1" pad="28"/>
-<connect gate="G$1" pin="GND_PAD" pad="23 EXP P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16"/>
+<connect gate="G$1" pin="GND_PAD" pad="EXP"/>
 <connect gate="G$1" pin="HOME" pad="27"/>
 <connect gate="G$1" pin="ISENA" pad="6"/>
 <connect gate="G$1" pin="ISENB" pad="9"/>
@@ -291,7 +275,7 @@
 <connect gate="A" pin="OUT2" pad="7"/>
 <connect gate="A" pin="OUT3" pad="8"/>
 <connect gate="A" pin="OUT4" pad="10"/>
-<connect gate="A" pin="PPAD" pad="EXP P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16"/>
+<connect gate="A" pin="PPAD" pad="EXP"/>
 <connect gate="A" pin="V3P3OUT" pad="15"/>
 <connect gate="A" pin="VCP" pad="3"/>
 <connect gate="A" pin="VM" pad="4"/>

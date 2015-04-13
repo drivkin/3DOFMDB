@@ -547,6 +547,7 @@
 <pad name="P$30" x="-0.508" y="-3.556" drill="0.3048" shape="square"/>
 <pad name="P$31" x="0.508" y="-3.556" drill="0.3048" shape="square"/>
 <pad name="P$32" x="1.524" y="-3.556" drill="0.3048" shape="square"/>
+<smd name="P$33" x="0" y="0" dx="4.318" dy="8.255" layer="16"/>
 </package>
 </packages>
 <symbols>
@@ -621,7 +622,7 @@
 <connect gate="A" pin="BST_A" pad="24"/>
 <connect gate="A" pin="BST_B" pad="33"/>
 <connect gate="A" pin="BST_C" pad="43"/>
-<connect gate="A" pin="EPAD" pad="EPAD P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32"/>
+<connect gate="A" pin="EPAD" pad="EPAD P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32 P$33" route="any"/>
 <connect gate="A" pin="GND" pad="37"/>
 <connect gate="A" pin="GND_2" pad="13"/>
 <connect gate="A" pin="GND_3" pad="36"/>
@@ -940,7 +941,7 @@ package type SS</description>
 <wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.1524" layer="21"/>
 <smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
 <smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="-0.762" y="0.8255" size="1.27" layer="25" ratio="15">&gt;NAME</text>
+<text x="-0.762" y="0.8255" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="CAP-PTH-LARGE">
@@ -2639,7 +2640,7 @@ Ends up being a square 6.6mm package.</description>
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="-0.1778" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="1" x="-0.1778" y="0" drill="1.016" diameter="1.8796" shape="square" rot="R90"/>
 <pad name="2" x="2.7178" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
@@ -12200,6 +12201,22 @@ KEMET T / EIA 3528-12</description>
 <rectangle x1="-3.075" y1="2.25" x2="-2.775" y2="3.3" layer="51" rot="R180"/>
 <rectangle x1="-3.725" y1="2.25" x2="-3.425" y2="3.3" layer="51" rot="R180"/>
 <rectangle x1="-4.375" y1="2.25" x2="-4.075" y2="3.3" layer="51" rot="R180"/>
+<pad name="P$1" x="-2.032" y="1.016" drill="0.3048" shape="square"/>
+<pad name="P$2" x="-2.032" y="0" drill="0.3048" shape="square"/>
+<pad name="P$3" x="-2.032" y="-1.016" drill="0.3048" shape="square"/>
+<pad name="P$4" x="-1.016" y="1.016" drill="0.3048" shape="square"/>
+<pad name="P$5" x="-1.016" y="0" drill="0.3048" shape="square"/>
+<pad name="P$6" x="-1.016" y="-1.016" drill="0.3048" shape="square"/>
+<pad name="P$7" x="0" y="-1.016" drill="0.3048" shape="square"/>
+<pad name="P$9" x="0" y="1.016" drill="0.3048" shape="square"/>
+<pad name="P$10" x="1.016" y="1.016" drill="0.3048" shape="square"/>
+<pad name="P$11" x="1.016" y="0" drill="0.3048" shape="square"/>
+<pad name="P$12" x="1.016" y="-1.016" drill="0.3048" shape="square"/>
+<pad name="P$13" x="2.032" y="-1.016" drill="0.3048" shape="square"/>
+<pad name="P$14" x="2.032" y="0" drill="0.3048" shape="square"/>
+<pad name="P$15" x="2.032" y="1.016" drill="0.3048" shape="square"/>
+<smd name="P$8" x="0" y="0" dx="5" dy="3" layer="16"/>
+<pad name="P$16" x="0" y="0" drill="0.3048" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -12264,7 +12281,7 @@ KEMET T / EIA 3528-12</description>
 <connect gate="A" pin="OUT2" pad="7"/>
 <connect gate="A" pin="OUT3" pad="8"/>
 <connect gate="A" pin="OUT4" pad="10"/>
-<connect gate="A" pin="PPAD" pad="EXP"/>
+<connect gate="A" pin="PPAD" pad="EXP P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16"/>
 <connect gate="A" pin="V3P3OUT" pad="15"/>
 <connect gate="A" pin="VCP" pad="3"/>
 <connect gate="A" pin="VM" pad="4"/>
@@ -12315,7 +12332,7 @@ KEMET T / EIA 3528-12</description>
 <part name="C15" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C16" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C17" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
-<part name="MOTOR_CONNECT" library="con-amp-quick" deviceset="M08" device=""/>
+<part name="MC" library="con-amp-quick" deviceset="M08" device=""/>
 <part name="R4" library="ASL" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R5" library="ASL" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R6" library="ASL" deviceset="RESISTOR" device="0805-RES" value="10k"/>
@@ -12360,7 +12377,7 @@ KEMET T / EIA 3528-12</description>
 <part name="C31" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C32" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C33" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
-<part name="MOTOR_CONNECT1" library="con-amp-quick" deviceset="M08" device=""/>
+<part name="MC1" library="con-amp-quick" deviceset="M08" device=""/>
 <part name="R18" library="ASL" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R19" library="ASL" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R20" library="ASL" deviceset="RESISTOR" device="0805-RES" value="10k"/>
@@ -12404,7 +12421,7 @@ KEMET T / EIA 3528-12</description>
 <part name="C48" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C49" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C50" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
-<part name="MOTOR_CONNECT2" library="con-amp-quick" deviceset="M08" device=""/>
+<part name="MC2" library="con-amp-quick" deviceset="M08" device=""/>
 <part name="R32" library="ASL" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R33" library="ASL" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R34" library="ASL" deviceset="RESISTOR" device="0805-RES" value="10k"/>
@@ -12492,7 +12509,7 @@ KEMET T / EIA 3528-12</description>
 <instance part="C15" gate="G$1" x="299.72" y="256.54"/>
 <instance part="C16" gate="G$1" x="302.26" y="233.68"/>
 <instance part="C17" gate="G$1" x="299.72" y="218.44"/>
-<instance part="MOTOR_CONNECT" gate="G$1" x="373.38" y="236.22" rot="R180"/>
+<instance part="MC" gate="G$1" x="373.38" y="236.22" rot="R180"/>
 <instance part="R4" gate="G$1" x="368.3" y="213.36" rot="R90"/>
 <instance part="R5" gate="G$1" x="358.14" y="213.36" rot="R90"/>
 <instance part="R6" gate="G$1" x="347.98" y="213.36" rot="R90"/>
@@ -12537,7 +12554,7 @@ KEMET T / EIA 3528-12</description>
 <instance part="C31" gate="G$1" x="317.5" y="66.04"/>
 <instance part="C32" gate="G$1" x="320.04" y="43.18"/>
 <instance part="C33" gate="G$1" x="317.5" y="27.94"/>
-<instance part="MOTOR_CONNECT1" gate="G$1" x="391.16" y="45.72" rot="R180"/>
+<instance part="MC1" gate="G$1" x="391.16" y="45.72" rot="R180"/>
 <instance part="R18" gate="G$1" x="386.08" y="22.86" rot="R90"/>
 <instance part="R19" gate="G$1" x="375.92" y="22.86" rot="R90"/>
 <instance part="R20" gate="G$1" x="365.76" y="22.86" rot="R90"/>
@@ -12581,7 +12598,7 @@ KEMET T / EIA 3528-12</description>
 <instance part="C48" gate="G$1" x="-170.18" y="256.54"/>
 <instance part="C49" gate="G$1" x="-167.64" y="233.68"/>
 <instance part="C50" gate="G$1" x="-170.18" y="218.44"/>
-<instance part="MOTOR_CONNECT2" gate="G$1" x="-96.52" y="236.22" rot="R180"/>
+<instance part="MC2" gate="G$1" x="-96.52" y="236.22" rot="R180"/>
 <instance part="R32" gate="G$1" x="-101.6" y="213.36" rot="R90"/>
 <instance part="R33" gate="G$1" x="-111.76" y="213.36" rot="R90"/>
 <instance part="R34" gate="G$1" x="-121.92" y="213.36" rot="R90"/>
@@ -12739,7 +12756,7 @@ KEMET T / EIA 3528-12</description>
 <label x="292.1" y="243.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MOTOR_CONNECT" gate="G$1" pin="4"/>
+<pinref part="MC" gate="G$1" pin="4"/>
 <wire x1="368.3" y1="236.22" x2="350.52" y2="236.22" width="0.1524" layer="91"/>
 <label x="350.52" y="236.22" size="1.778" layer="95"/>
 </segment>
@@ -12924,7 +12941,7 @@ KEMET T / EIA 3528-12</description>
 <label x="309.88" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MOTOR_CONNECT1" gate="G$1" pin="4"/>
+<pinref part="MC1" gate="G$1" pin="4"/>
 <wire x1="386.08" y1="45.72" x2="368.3" y2="45.72" width="0.1524" layer="91"/>
 <label x="368.3" y="45.72" size="1.778" layer="95"/>
 </segment>
@@ -13107,7 +13124,7 @@ KEMET T / EIA 3528-12</description>
 <label x="-177.8" y="243.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MOTOR_CONNECT2" gate="G$1" pin="4"/>
+<pinref part="MC2" gate="G$1" pin="4"/>
 <wire x1="-101.6" y1="236.22" x2="-119.38" y2="236.22" width="0.1524" layer="91"/>
 <label x="-119.38" y="236.22" size="1.778" layer="95"/>
 </segment>
@@ -14176,19 +14193,19 @@ KEMET T / EIA 3528-12</description>
 <pinref part="RSENSE_C" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="241.3" x2="332.74" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="241.3" x2="332.74" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="MOTOR_CONNECT" gate="G$1" pin="1"/>
+<pinref part="MC" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="243.84" x2="368.3" y2="243.84" width="0.1524" layer="91"/>
 <label x="332.74" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="MOTOR_CONNECT" gate="G$1" pin="5"/>
+<pinref part="MC" gate="G$1" pin="5"/>
 <wire x1="368.3" y1="233.68" x2="350.52" y2="233.68" width="0.1524" layer="91"/>
 <label x="350.52" y="233.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MOTOR_CONNECT1" gate="G$1" pin="5"/>
+<pinref part="MC1" gate="G$1" pin="5"/>
 <wire x1="386.08" y1="43.18" x2="368.3" y2="43.18" width="0.1524" layer="91"/>
 <label x="368.3" y="43.18" size="1.778" layer="95"/>
 </segment>
@@ -14197,7 +14214,7 @@ KEMET T / EIA 3528-12</description>
 <label x="236.22" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MOTOR_CONNECT2" gate="G$1" pin="5"/>
+<pinref part="MC2" gate="G$1" pin="5"/>
 <wire x1="-101.6" y1="233.68" x2="-119.38" y2="233.68" width="0.1524" layer="91"/>
 <label x="-119.38" y="233.68" size="1.778" layer="95"/>
 </segment>
@@ -14218,7 +14235,7 @@ KEMET T / EIA 3528-12</description>
 </net>
 <net name="HALLC" class="0">
 <segment>
-<pinref part="MOTOR_CONNECT" gate="G$1" pin="6"/>
+<pinref part="MC" gate="G$1" pin="6"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="368.3" y1="231.14" x2="347.98" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="231.14" x2="347.98" y2="218.44" width="0.1524" layer="91"/>
@@ -14232,7 +14249,7 @@ KEMET T / EIA 3528-12</description>
 </net>
 <net name="HALLB" class="0">
 <segment>
-<pinref part="MOTOR_CONNECT" gate="G$1" pin="7"/>
+<pinref part="MC" gate="G$1" pin="7"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="368.3" y1="228.6" x2="358.14" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="228.6" x2="358.14" y2="218.44" width="0.1524" layer="91"/>
@@ -14246,7 +14263,7 @@ KEMET T / EIA 3528-12</description>
 </net>
 <net name="HALLA" class="0">
 <segment>
-<pinref part="MOTOR_CONNECT" gate="G$1" pin="8"/>
+<pinref part="MC" gate="G$1" pin="8"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="368.3" y1="226.06" x2="368.3" y2="218.44" width="0.1524" layer="91"/>
 <label x="368.3" y="218.44" size="1.778" layer="95"/>
@@ -14326,7 +14343,7 @@ KEMET T / EIA 3528-12</description>
 <pinref part="RSENSE_B" gate="G$1" pin="1"/>
 <wire x1="335.28" y1="231.14" x2="337.82" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="231.14" x2="337.82" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="MOTOR_CONNECT" gate="G$1" pin="2"/>
+<pinref part="MC" gate="G$1" pin="2"/>
 <wire x1="337.82" y1="241.3" x2="368.3" y2="241.3" width="0.1524" layer="91"/>
 <label x="337.82" y="241.3" size="1.778" layer="95"/>
 </segment>
@@ -14341,7 +14358,7 @@ KEMET T / EIA 3528-12</description>
 <pinref part="RSENSE_A" gate="G$1" pin="1"/>
 <wire x1="335.28" y1="223.52" x2="342.9" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="223.52" x2="342.9" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="MOTOR_CONNECT" gate="G$1" pin="3"/>
+<pinref part="MC" gate="G$1" pin="3"/>
 <wire x1="342.9" y1="238.76" x2="368.3" y2="238.76" width="0.1524" layer="91"/>
 <label x="342.9" y="238.76" size="1.778" layer="95"/>
 </segment>
@@ -14648,7 +14665,7 @@ KEMET T / EIA 3528-12</description>
 <pinref part="RSENSE_B1" gate="G$1" pin="1"/>
 <wire x1="353.06" y1="40.64" x2="355.6" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="40.64" x2="355.6" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="MOTOR_CONNECT1" gate="G$1" pin="2"/>
+<pinref part="MC1" gate="G$1" pin="2"/>
 <wire x1="355.6" y1="50.8" x2="386.08" y2="50.8" width="0.1524" layer="91"/>
 <label x="355.6" y="50.8" size="1.778" layer="95"/>
 </segment>
@@ -14675,7 +14692,7 @@ KEMET T / EIA 3528-12</description>
 <pinref part="RSENSE_A1" gate="G$1" pin="1"/>
 <wire x1="353.06" y1="33.02" x2="360.68" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="33.02" x2="360.68" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="MOTOR_CONNECT1" gate="G$1" pin="3"/>
+<pinref part="MC1" gate="G$1" pin="3"/>
 <wire x1="360.68" y1="48.26" x2="386.08" y2="48.26" width="0.1524" layer="91"/>
 <label x="360.68" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -14685,14 +14702,14 @@ KEMET T / EIA 3528-12</description>
 <pinref part="RSENSE_C1" gate="G$1" pin="1"/>
 <wire x1="330.2" y1="50.8" x2="350.52" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="50.8" x2="350.52" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="MOTOR_CONNECT1" gate="G$1" pin="1"/>
+<pinref part="MC1" gate="G$1" pin="1"/>
 <wire x1="350.52" y1="53.34" x2="386.08" y2="53.34" width="0.1524" layer="91"/>
 <label x="350.52" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HALLC1" class="0">
 <segment>
-<pinref part="MOTOR_CONNECT1" gate="G$1" pin="6"/>
+<pinref part="MC1" gate="G$1" pin="6"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="386.08" y1="40.64" x2="365.76" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="40.64" x2="365.76" y2="27.94" width="0.1524" layer="91"/>
@@ -14706,7 +14723,7 @@ KEMET T / EIA 3528-12</description>
 </net>
 <net name="HALLB1" class="0">
 <segment>
-<pinref part="MOTOR_CONNECT1" gate="G$1" pin="7"/>
+<pinref part="MC1" gate="G$1" pin="7"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="386.08" y1="38.1" x2="375.92" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="38.1" x2="375.92" y2="27.94" width="0.1524" layer="91"/>
@@ -14720,7 +14737,7 @@ KEMET T / EIA 3528-12</description>
 </net>
 <net name="HALLA1" class="0">
 <segment>
-<pinref part="MOTOR_CONNECT1" gate="G$1" pin="8"/>
+<pinref part="MC1" gate="G$1" pin="8"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="386.08" y1="35.56" x2="386.08" y2="27.94" width="0.1524" layer="91"/>
 <label x="386.08" y="27.94" size="1.778" layer="95"/>
@@ -15046,7 +15063,7 @@ KEMET T / EIA 3528-12</description>
 <pinref part="RSENSE_B2" gate="G$1" pin="1"/>
 <wire x1="-134.62" y1="231.14" x2="-132.08" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="231.14" x2="-132.08" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="MOTOR_CONNECT2" gate="G$1" pin="2"/>
+<pinref part="MC2" gate="G$1" pin="2"/>
 <wire x1="-132.08" y1="241.3" x2="-101.6" y2="241.3" width="0.1524" layer="91"/>
 <label x="-132.08" y="241.3" size="1.778" layer="95"/>
 </segment>
@@ -15073,7 +15090,7 @@ KEMET T / EIA 3528-12</description>
 <pinref part="RSENSE_A2" gate="G$1" pin="1"/>
 <wire x1="-134.62" y1="223.52" x2="-127" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="-127" y1="223.52" x2="-127" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="MOTOR_CONNECT2" gate="G$1" pin="3"/>
+<pinref part="MC2" gate="G$1" pin="3"/>
 <wire x1="-127" y1="238.76" x2="-101.6" y2="238.76" width="0.1524" layer="91"/>
 <label x="-127" y="238.76" size="1.778" layer="95"/>
 </segment>
@@ -15083,14 +15100,14 @@ KEMET T / EIA 3528-12</description>
 <pinref part="RSENSE_C2" gate="G$1" pin="1"/>
 <wire x1="-157.48" y1="241.3" x2="-137.16" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="241.3" x2="-137.16" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="MOTOR_CONNECT2" gate="G$1" pin="1"/>
+<pinref part="MC2" gate="G$1" pin="1"/>
 <wire x1="-137.16" y1="243.84" x2="-101.6" y2="243.84" width="0.1524" layer="91"/>
 <label x="-137.16" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HALLC2" class="0">
 <segment>
-<pinref part="MOTOR_CONNECT2" gate="G$1" pin="6"/>
+<pinref part="MC2" gate="G$1" pin="6"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="-101.6" y1="231.14" x2="-121.92" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="231.14" x2="-121.92" y2="218.44" width="0.1524" layer="91"/>
@@ -15104,7 +15121,7 @@ KEMET T / EIA 3528-12</description>
 </net>
 <net name="HALLB2" class="0">
 <segment>
-<pinref part="MOTOR_CONNECT2" gate="G$1" pin="7"/>
+<pinref part="MC2" gate="G$1" pin="7"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="-101.6" y1="228.6" x2="-111.76" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="228.6" x2="-111.76" y2="218.44" width="0.1524" layer="91"/>
@@ -15118,7 +15135,7 @@ KEMET T / EIA 3528-12</description>
 </net>
 <net name="HALLA2" class="0">
 <segment>
-<pinref part="MOTOR_CONNECT2" gate="G$1" pin="8"/>
+<pinref part="MC2" gate="G$1" pin="8"/>
 <pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="-101.6" y1="226.06" x2="-101.6" y2="218.44" width="0.1524" layer="91"/>
 <label x="-101.6" y="218.44" size="1.778" layer="95"/>

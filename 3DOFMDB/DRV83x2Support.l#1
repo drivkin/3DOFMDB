@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -1128,6 +1128,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pad name="P$30" x="-0.508" y="-3.556" drill="0.3048" shape="square"/>
 <pad name="P$31" x="0.508" y="-3.556" drill="0.3048" shape="square"/>
 <pad name="P$32" x="1.524" y="-3.556" drill="0.3048" shape="square"/>
+<smd name="P$33" x="0" y="0" dx="4.318" dy="8.255" layer="16"/>
 </package>
 <package name="DDW44_8P26X4P31-M">
 <smd name="1" x="-3.8354" y="6.6548" dx="1.778" dy="0.1016" layer="1"/>
@@ -2989,7 +2990,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <connect gate="A" pin="BST_A" pad="24"/>
 <connect gate="A" pin="BST_B" pad="33"/>
 <connect gate="A" pin="BST_C" pad="43"/>
-<connect gate="A" pin="EPAD" pad="EPAD"/>
+<connect gate="A" pin="EPAD" pad="EPAD P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32"/>
 <connect gate="A" pin="GND" pad="37"/>
 <connect gate="A" pin="GND_2" pad="13"/>
 <connect gate="A" pin="GND_3" pad="36"/>
