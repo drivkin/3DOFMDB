@@ -4231,6 +4231,11 @@ design rules under a new name.</description>
 <via x="59.6392" y="13.97" extent="1-16" drill="0.3048" shape="square"/>
 <via x="59.6392" y="12.7254" extent="1-16" drill="0.3048" shape="square"/>
 <via x="59.9186" y="9.271" extent="1-16" drill="0.3048" shape="square"/>
+<via x="1.3716" y="73.9902" extent="1-16" drill="0.3048"/>
+<via x="1.3208" y="72.5932" extent="1-16" drill="0.3048"/>
+<via x="1.27" y="71.0438" extent="1-16" drill="0.3048"/>
+<via x="1.1938" y="69.1896" extent="1-16" drill="0.3048"/>
+<wire x1="1.27" y1="71.0438" x2="1.1938" y2="69.1896" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3">
 <contactref element="U$1" pad="13"/>

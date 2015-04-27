@@ -752,169 +752,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="microchip">
-<description>&lt;b&gt;Microchip PIC Microcontrollers and other Devices&lt;/b&gt;&lt;p&gt;
-Based on the following sources :
-&lt;ul&gt;
-&lt;li&gt;Microchip Data Book, 1993
-&lt;li&gt;THE EMERGING WORLD STANDARD, 1995/1996
-&lt;li&gt;Microchip, Technical Library CD-ROM, June 1998
-&lt;li&gt;www.microchip.com
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SSOP28">
-<description>&lt;b&gt;Shrink Small Outline Package&lt;/b&gt;&lt;p&gt;
-package type SS</description>
-<wire x1="-5.1" y1="-2.6" x2="5.1" y2="-2.6" width="0.2032" layer="21"/>
-<wire x1="5.1" y1="-2.6" x2="5.1" y2="2.6" width="0.2032" layer="21"/>
-<wire x1="5.1" y1="2.6" x2="-5.1" y2="2.6" width="0.2032" layer="21"/>
-<smd name="1" x="-4.225" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="2" x="-3.575" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="3" x="-2.925" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="4" x="-2.275" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="5" x="-1.625" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="6" x="-0.975" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="7" x="-0.325" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="8" x="0.325" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="9" x="0.975" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="10" x="1.625" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="11" x="2.275" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="12" x="2.925" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="13" x="3.575" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="14" x="4.225" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="15" x="4.225" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="16" x="3.575" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="17" x="2.925" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="18" x="2.275" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="19" x="1.625" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="20" x="0.975" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="21" x="0.325" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="22" x="-0.325" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="23" x="-0.975" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="24" x="-1.625" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="25" x="-2.275" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="26" x="-2.925" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="27" x="-3.575" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<smd name="28" x="-4.225" y="3.625" dx="0.4" dy="1.5" layer="1"/>
-<text x="-5.476" y="-2.6299" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3.8999" y="-0.68" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.4028" y1="-3.937" x2="-4.0472" y2="-2.6416" layer="51"/>
-<rectangle x1="-3.7529" y1="-3.937" x2="-3.3973" y2="-2.6416" layer="51"/>
-<rectangle x1="-3.1029" y1="-3.937" x2="-2.7473" y2="-2.6416" layer="51"/>
-<rectangle x1="-2.4529" y1="-3.937" x2="-2.0973" y2="-2.6416" layer="51"/>
-<rectangle x1="-1.8029" y1="-3.937" x2="-1.4473" y2="-2.6416" layer="51"/>
-<rectangle x1="-1.1529" y1="-3.937" x2="-0.7973" y2="-2.6416" layer="51"/>
-<rectangle x1="-0.5029" y1="-3.937" x2="-0.1473" y2="-2.6416" layer="51"/>
-<rectangle x1="0.1473" y1="-3.937" x2="0.5029" y2="-2.6416" layer="51"/>
-<rectangle x1="0.7973" y1="-3.937" x2="1.1529" y2="-2.6416" layer="51"/>
-<rectangle x1="1.4473" y1="-3.937" x2="1.8029" y2="-2.6416" layer="51"/>
-<rectangle x1="2.0973" y1="-3.937" x2="2.4529" y2="-2.6416" layer="51"/>
-<rectangle x1="2.7473" y1="-3.937" x2="3.1029" y2="-2.6416" layer="51"/>
-<rectangle x1="3.3973" y1="-3.937" x2="3.7529" y2="-2.6416" layer="51"/>
-<rectangle x1="4.0472" y1="-3.937" x2="4.4028" y2="-2.6416" layer="51"/>
-<rectangle x1="4.0472" y1="2.6416" x2="4.4028" y2="3.937" layer="51"/>
-<rectangle x1="3.3973" y1="2.6416" x2="3.7529" y2="3.937" layer="51"/>
-<rectangle x1="2.7473" y1="2.6416" x2="3.1029" y2="3.937" layer="51"/>
-<rectangle x1="2.0973" y1="2.6416" x2="2.4529" y2="3.937" layer="51"/>
-<rectangle x1="1.4473" y1="2.6416" x2="1.8029" y2="3.937" layer="51"/>
-<rectangle x1="0.7973" y1="2.6416" x2="1.1529" y2="3.937" layer="51"/>
-<rectangle x1="0.1473" y1="2.6416" x2="0.5029" y2="3.937" layer="51"/>
-<rectangle x1="-0.5029" y1="2.6416" x2="-0.1473" y2="3.937" layer="51"/>
-<rectangle x1="-1.1529" y1="2.6416" x2="-0.7973" y2="3.937" layer="51"/>
-<rectangle x1="-1.8029" y1="2.6416" x2="-1.4473" y2="3.937" layer="51"/>
-<rectangle x1="-2.4529" y1="2.6416" x2="-2.0973" y2="3.937" layer="51"/>
-<rectangle x1="-3.1029" y1="2.6416" x2="-2.7473" y2="3.937" layer="51"/>
-<rectangle x1="-3.7529" y1="2.6416" x2="-3.3973" y2="3.937" layer="51"/>
-<rectangle x1="-4.4028" y1="2.6416" x2="-4.0472" y2="3.937" layer="51"/>
-<rectangle x1="-5.1999" y1="-2.5999" x2="-4.225" y2="2.5999" layer="27"/>
-<wire x1="-5.08" y1="1.27" x2="-3.81" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="-3.81" y1="0" x2="-5.08" y2="-1.27" width="0.127" layer="21" curve="-90"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DSPIC33EP512MC502-28SSOP">
-<pin name="MCLR'" x="-27.94" y="17.78" length="middle"/>
-<pin name="AN0" x="-27.94" y="15.24" length="middle"/>
-<pin name="AN1" x="-27.94" y="12.7" length="middle"/>
-<pin name="SS1'" x="-27.94" y="10.16" length="middle"/>
-<pin name="AN3/RPI33" x="-27.94" y="7.62" length="middle"/>
-<pin name="RPI34" x="-27.94" y="5.08" length="middle"/>
-<pin name="RP35" x="-27.94" y="2.54" length="middle"/>
-<pin name="VSS1" x="-27.94" y="0" length="middle"/>
-<pin name="RA2" x="-27.94" y="-2.54" length="middle"/>
-<pin name="RA3" x="-27.94" y="-5.08" length="middle"/>
-<pin name="RP36" x="-27.94" y="-7.62" length="middle"/>
-<pin name="RP20" x="-27.94" y="-10.16" length="middle"/>
-<pin name="VDD" x="-27.94" y="-12.7" length="middle"/>
-<pin name="RP37" x="-27.94" y="-15.24" length="middle"/>
-<pin name="AVDD" x="27.94" y="17.78" length="middle" rot="R180"/>
-<pin name="AVSS" x="27.94" y="15.24" length="middle" rot="R180"/>
-<pin name="PWM1L" x="27.94" y="12.7" length="middle" rot="R180"/>
-<pin name="PWM1H" x="27.94" y="10.16" length="middle" rot="R180"/>
-<pin name="PWM2L" x="27.94" y="7.62" length="middle" rot="R180"/>
-<pin name="PWM2H" x="27.94" y="5.08" length="middle" rot="R180"/>
-<pin name="PWM3L" x="27.94" y="2.54" length="middle" rot="R180"/>
-<pin name="PWM3H" x="27.94" y="0" length="middle" rot="R180"/>
-<pin name="VCAP" x="27.94" y="-2.54" length="middle" rot="R180"/>
-<pin name="VSS" x="27.94" y="-5.08" length="middle" rot="R180"/>
-<pin name="SDI1" x="27.94" y="-7.62" length="middle" rot="R180"/>
-<pin name="SDO1" x="27.94" y="-10.16" length="middle" rot="R180"/>
-<pin name="SCK1" x="27.94" y="-12.7" length="middle" rot="R180"/>
-<pin name="RP38" x="27.94" y="-15.24" length="middle" rot="R180"/>
-<rectangle x1="-22.86" y1="-17.78" x2="22.86" y2="20.32" layer="94"/>
-<text x="-22.86" y="25.4" size="1.778" layer="95">&gt;NAME</text>
-<text x="-22.86" y="20.32" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DSPIC33EP512MC502-28SSOP" uservalue="yes">
-<description>DSPIC33EP512MC502</description>
-<gates>
-<gate name="G$1" symbol="DSPIC33EP512MC502-28SSOP" x="-2.54" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="SSOP28">
-<connects>
-<connect gate="G$1" pin="AN0" pad="2"/>
-<connect gate="G$1" pin="AN1" pad="3"/>
-<connect gate="G$1" pin="AN3/RPI33" pad="5"/>
-<connect gate="G$1" pin="AVDD" pad="28"/>
-<connect gate="G$1" pin="AVSS" pad="27"/>
-<connect gate="G$1" pin="MCLR'" pad="1"/>
-<connect gate="G$1" pin="PWM1H" pad="25"/>
-<connect gate="G$1" pin="PWM1L" pad="26"/>
-<connect gate="G$1" pin="PWM2H" pad="23"/>
-<connect gate="G$1" pin="PWM2L" pad="24"/>
-<connect gate="G$1" pin="PWM3H" pad="21"/>
-<connect gate="G$1" pin="PWM3L" pad="22"/>
-<connect gate="G$1" pin="RA2" pad="9"/>
-<connect gate="G$1" pin="RA3" pad="10"/>
-<connect gate="G$1" pin="RP20" pad="12"/>
-<connect gate="G$1" pin="RP35" pad="7"/>
-<connect gate="G$1" pin="RP36" pad="11"/>
-<connect gate="G$1" pin="RP37" pad="14"/>
-<connect gate="G$1" pin="RP38" pad="15"/>
-<connect gate="G$1" pin="RPI34" pad="6"/>
-<connect gate="G$1" pin="SCK1" pad="16"/>
-<connect gate="G$1" pin="SDI1" pad="18"/>
-<connect gate="G$1" pin="SDO1" pad="17"/>
-<connect gate="G$1" pin="SS1'" pad="4"/>
-<connect gate="G$1" pin="VCAP" pad="20"/>
-<connect gate="G$1" pin="VDD" pad="13"/>
-<connect gate="G$1" pin="VSS" pad="19"/>
-<connect gate="G$1" pin="VSS1" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DSPIC33EP512MC502" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ASL">
 <description>This is the Eagle parts library used by the Autonomous Systems Lab at the University of California, Santa Cruz.</description>
 <packages>
@@ -12299,6 +12136,160 @@ KEMET T / EIA 3528-12</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="DSPIC33">
+<packages>
+<package name="SSOP28">
+<description>&lt;b&gt;Shrink Small Outline Package&lt;/b&gt;&lt;p&gt;
+package type SS</description>
+<wire x1="-5.1" y1="-2.6" x2="5.1" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="5.1" y1="-2.6" x2="5.1" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="5.1" y1="2.6" x2="-5.1" y2="2.6" width="0.2032" layer="21"/>
+<smd name="1" x="-4.225" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="2" x="-3.575" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="3" x="-2.925" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="4" x="-2.275" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="5" x="-1.625" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="6" x="-0.975" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="7" x="-0.325" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="8" x="0.325" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="9" x="0.975" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="10" x="1.625" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="11" x="2.275" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="12" x="2.925" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="13" x="3.575" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="14" x="4.225" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="15" x="4.225" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="16" x="3.575" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="17" x="2.925" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="18" x="2.275" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="19" x="1.625" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="20" x="0.975" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="21" x="0.325" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="22" x="-0.325" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="23" x="-0.975" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="24" x="-1.625" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="25" x="-2.275" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="26" x="-2.925" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="27" x="-3.575" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="28" x="-4.225" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<text x="-5.476" y="-2.6299" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.8999" y="-0.68" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.4028" y1="-3.937" x2="-4.0472" y2="-2.6416" layer="51"/>
+<rectangle x1="-3.7529" y1="-3.937" x2="-3.3973" y2="-2.6416" layer="51"/>
+<rectangle x1="-3.1029" y1="-3.937" x2="-2.7473" y2="-2.6416" layer="51"/>
+<rectangle x1="-2.4529" y1="-3.937" x2="-2.0973" y2="-2.6416" layer="51"/>
+<rectangle x1="-1.8029" y1="-3.937" x2="-1.4473" y2="-2.6416" layer="51"/>
+<rectangle x1="-1.1529" y1="-3.937" x2="-0.7973" y2="-2.6416" layer="51"/>
+<rectangle x1="-0.5029" y1="-3.937" x2="-0.1473" y2="-2.6416" layer="51"/>
+<rectangle x1="0.1473" y1="-3.937" x2="0.5029" y2="-2.6416" layer="51"/>
+<rectangle x1="0.7973" y1="-3.937" x2="1.1529" y2="-2.6416" layer="51"/>
+<rectangle x1="1.4473" y1="-3.937" x2="1.8029" y2="-2.6416" layer="51"/>
+<rectangle x1="2.0973" y1="-3.937" x2="2.4529" y2="-2.6416" layer="51"/>
+<rectangle x1="2.7473" y1="-3.937" x2="3.1029" y2="-2.6416" layer="51"/>
+<rectangle x1="3.3973" y1="-3.937" x2="3.7529" y2="-2.6416" layer="51"/>
+<rectangle x1="4.0472" y1="-3.937" x2="4.4028" y2="-2.6416" layer="51"/>
+<rectangle x1="4.0472" y1="2.6416" x2="4.4028" y2="3.937" layer="51"/>
+<rectangle x1="3.3973" y1="2.6416" x2="3.7529" y2="3.937" layer="51"/>
+<rectangle x1="2.7473" y1="2.6416" x2="3.1029" y2="3.937" layer="51"/>
+<rectangle x1="2.0973" y1="2.6416" x2="2.4529" y2="3.937" layer="51"/>
+<rectangle x1="1.4473" y1="2.6416" x2="1.8029" y2="3.937" layer="51"/>
+<rectangle x1="0.7973" y1="2.6416" x2="1.1529" y2="3.937" layer="51"/>
+<rectangle x1="0.1473" y1="2.6416" x2="0.5029" y2="3.937" layer="51"/>
+<rectangle x1="-0.5029" y1="2.6416" x2="-0.1473" y2="3.937" layer="51"/>
+<rectangle x1="-1.1529" y1="2.6416" x2="-0.7973" y2="3.937" layer="51"/>
+<rectangle x1="-1.8029" y1="2.6416" x2="-1.4473" y2="3.937" layer="51"/>
+<rectangle x1="-2.4529" y1="2.6416" x2="-2.0973" y2="3.937" layer="51"/>
+<rectangle x1="-3.1029" y1="2.6416" x2="-2.7473" y2="3.937" layer="51"/>
+<rectangle x1="-3.7529" y1="2.6416" x2="-3.3973" y2="3.937" layer="51"/>
+<rectangle x1="-4.4028" y1="2.6416" x2="-4.0472" y2="3.937" layer="51"/>
+<rectangle x1="-5.1999" y1="-2.5999" x2="-4.225" y2="2.5999" layer="27"/>
+<wire x1="-5.08" y1="1.27" x2="-3.81" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="-1.27" width="0.127" layer="21" curve="-90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DSPIC33EP512MC502-28SSOP">
+<pin name="MCLR'" x="-27.94" y="17.78" length="middle"/>
+<pin name="AN0" x="-27.94" y="15.24" length="middle"/>
+<pin name="AN1" x="-27.94" y="12.7" length="middle"/>
+<pin name="SS1'" x="-27.94" y="10.16" length="middle"/>
+<pin name="AN3/RPI33" x="-27.94" y="7.62" length="middle"/>
+<pin name="RPI34" x="-27.94" y="5.08" length="middle"/>
+<pin name="RP35" x="-27.94" y="2.54" length="middle"/>
+<pin name="VSS1" x="-27.94" y="0" length="middle"/>
+<pin name="RA2" x="-27.94" y="-2.54" length="middle"/>
+<pin name="RA3" x="-27.94" y="-5.08" length="middle"/>
+<pin name="RP36" x="-27.94" y="-7.62" length="middle"/>
+<pin name="RP20" x="-27.94" y="-10.16" length="middle"/>
+<pin name="VDD" x="-27.94" y="-12.7" length="middle"/>
+<pin name="RP37" x="-27.94" y="-15.24" length="middle"/>
+<pin name="AVDD" x="27.94" y="17.78" length="middle" rot="R180"/>
+<pin name="AVSS" x="27.94" y="15.24" length="middle" rot="R180"/>
+<pin name="PWM1L" x="27.94" y="12.7" length="middle" rot="R180"/>
+<pin name="PWM1H" x="27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="PWM2L" x="27.94" y="7.62" length="middle" rot="R180"/>
+<pin name="PWM2H" x="27.94" y="5.08" length="middle" rot="R180"/>
+<pin name="PWM3L" x="27.94" y="2.54" length="middle" rot="R180"/>
+<pin name="PWM3H" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="VCAP" x="27.94" y="-2.54" length="middle" rot="R180"/>
+<pin name="VSS" x="27.94" y="-5.08" length="middle" rot="R180"/>
+<pin name="SDI1" x="27.94" y="-7.62" length="middle" rot="R180"/>
+<pin name="SDO1" x="27.94" y="-10.16" length="middle" rot="R180"/>
+<pin name="SCK1" x="27.94" y="-12.7" length="middle" rot="R180"/>
+<pin name="RP38" x="27.94" y="-15.24" length="middle" rot="R180"/>
+<rectangle x1="-22.86" y1="-17.78" x2="22.86" y2="20.32" layer="94"/>
+<text x="-22.86" y="25.4" size="1.778" layer="95">&gt;NAME</text>
+<text x="-22.86" y="20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DSPIC33EP512MC502-28SSOP" uservalue="yes">
+<description>DSPIC33EP512MC502</description>
+<gates>
+<gate name="G$1" symbol="DSPIC33EP512MC502-28SSOP" x="-2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SSOP28">
+<connects>
+<connect gate="G$1" pin="AN0" pad="2"/>
+<connect gate="G$1" pin="AN1" pad="3"/>
+<connect gate="G$1" pin="AN3/RPI33" pad="5"/>
+<connect gate="G$1" pin="AVDD" pad="28"/>
+<connect gate="G$1" pin="AVSS" pad="27"/>
+<connect gate="G$1" pin="MCLR'" pad="1"/>
+<connect gate="G$1" pin="PWM1H" pad="25"/>
+<connect gate="G$1" pin="PWM1L" pad="26"/>
+<connect gate="G$1" pin="PWM2H" pad="23"/>
+<connect gate="G$1" pin="PWM2L" pad="24"/>
+<connect gate="G$1" pin="PWM3H" pad="21"/>
+<connect gate="G$1" pin="PWM3L" pad="22"/>
+<connect gate="G$1" pin="RA2" pad="9"/>
+<connect gate="G$1" pin="RA3" pad="10"/>
+<connect gate="G$1" pin="RP20" pad="12"/>
+<connect gate="G$1" pin="RP35" pad="7"/>
+<connect gate="G$1" pin="RP36" pad="11"/>
+<connect gate="G$1" pin="RP37" pad="14"/>
+<connect gate="G$1" pin="RP38" pad="15"/>
+<connect gate="G$1" pin="RPI34" pad="6"/>
+<connect gate="G$1" pin="SCK1" pad="16"/>
+<connect gate="G$1" pin="SDI1" pad="18"/>
+<connect gate="G$1" pin="SDO1" pad="17"/>
+<connect gate="G$1" pin="SS1'" pad="4"/>
+<connect gate="G$1" pin="VCAP" pad="20"/>
+<connect gate="G$1" pin="VDD" pad="13"/>
+<connect gate="G$1" pin="VSS" pad="19"/>
+<connect gate="G$1" pin="VSS1" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DSPIC33EP512MC502" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12311,7 +12302,7 @@ KEMET T / EIA 3528-12</description>
 <parts>
 <part name="U2" library="DRV83x2Support" deviceset="DRV8312_DDW_44" device=""/>
 <part name="CS1" library="3DOFMDB_COMPONENTS" deviceset="MAX4376" device=""/>
-<part name="U$1" library="microchip" deviceset="DSPIC33EP512MC502-28SSOP" device=""/>
+<part name="U$1" library="DSPIC33" deviceset="DSPIC33EP512MC502-28SSOP" device=""/>
 <part name="C1" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C2" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C3" library="ASL" deviceset="CAP" device="0805" value="10u"/>
@@ -12356,7 +12347,7 @@ KEMET T / EIA 3528-12</description>
 <part name="LED5" library="ASL" deviceset="LED" device="0805"/>
 <part name="U1" library="DRV83x2Support" deviceset="DRV8312_DDW_44" device=""/>
 <part name="CS2" library="3DOFMDB_COMPONENTS" deviceset="MAX4376" device=""/>
-<part name="U$2" library="microchip" deviceset="DSPIC33EP512MC502-28SSOP" device=""/>
+<part name="U$2" library="DSPIC33" deviceset="DSPIC33EP512MC502-28SSOP" device=""/>
 <part name="C18" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C19" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C20" library="ASL" deviceset="CAP" device="0805" value="10u"/>
@@ -12400,7 +12391,7 @@ KEMET T / EIA 3528-12</description>
 <part name="LED10" library="ASL" deviceset="LED" device="0805"/>
 <part name="U3" library="DRV83x2Support" deviceset="DRV8312_DDW_44" device=""/>
 <part name="CS3" library="3DOFMDB_COMPONENTS" deviceset="MAX4376" device=""/>
-<part name="U$3" library="microchip" deviceset="DSPIC33EP512MC502-28SSOP" device=""/>
+<part name="U$3" library="DSPIC33" deviceset="DSPIC33EP512MC502-28SSOP" device=""/>
 <part name="C35" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C36" library="ASL" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C37" library="ASL" deviceset="CAP" device="0805" value="10u"/>

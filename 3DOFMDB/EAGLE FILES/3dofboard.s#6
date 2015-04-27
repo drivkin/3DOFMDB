@@ -167,56 +167,6 @@
 <smd name="43" x="3.7846" y="6.0452" dx="1.4732" dy="0.254" layer="1"/>
 <smd name="44" x="3.7846" y="6.6548" dx="1.4732" dy="0.254" layer="1"/>
 <smd name="EPAD" x="0" y="0" dx="4.318" dy="8.255" layer="1"/>
-<pad name="V_3" x="-1.5748" y="-3.556" drill="0.254"/>
-<pad name="V_2" x="-1.5748" y="-2.7432" drill="0.254"/>
-<pad name="V_4" x="-1.5748" y="-1.9812" drill="0.254"/>
-<pad name="V_5" x="-1.5748" y="-1.1684" drill="0.254"/>
-<pad name="V_6" x="-1.5748" y="-0.4064" drill="0.254"/>
-<pad name="V_7" x="-1.5748" y="0.4064" drill="0.254"/>
-<pad name="V_8" x="-1.5748" y="1.1684" drill="0.254"/>
-<pad name="V_9" x="-1.5748" y="1.9812" drill="0.254"/>
-<pad name="V_10" x="-1.5748" y="2.7432" drill="0.254"/>
-<pad name="V_11" x="-1.5748" y="3.556" drill="0.254"/>
-<pad name="V_12" x="-0.7874" y="-3.556" drill="0.254"/>
-<pad name="V_13" x="-0.7874" y="-2.7432" drill="0.254"/>
-<pad name="V_14" x="-0.7874" y="-1.9812" drill="0.254"/>
-<pad name="V_15" x="-0.7874" y="-1.1684" drill="0.254"/>
-<pad name="V_16" x="-0.7874" y="-0.4064" drill="0.254"/>
-<pad name="V_17" x="-0.7874" y="0.4064" drill="0.254"/>
-<pad name="V_18" x="-0.7874" y="1.1684" drill="0.254"/>
-<pad name="V_19" x="-0.7874" y="1.9812" drill="0.254"/>
-<pad name="V_20" x="-0.7874" y="2.7432" drill="0.254"/>
-<pad name="V_21" x="-0.7874" y="3.556" drill="0.254"/>
-<pad name="V_22" x="0" y="-3.556" drill="0.254"/>
-<pad name="V_23" x="0" y="-2.7432" drill="0.254"/>
-<pad name="V_24" x="0" y="-1.9812" drill="0.254"/>
-<pad name="V_25" x="0" y="-1.1684" drill="0.254"/>
-<pad name="V_26" x="0" y="-0.4064" drill="0.254"/>
-<pad name="V_27" x="0" y="0.4064" drill="0.254"/>
-<pad name="V_28" x="0" y="1.1684" drill="0.254"/>
-<pad name="V_29" x="0" y="1.9812" drill="0.254"/>
-<pad name="V_30" x="0" y="2.7432" drill="0.254"/>
-<pad name="V_31" x="0" y="3.556" drill="0.254"/>
-<pad name="V_32" x="0.7874" y="-3.556" drill="0.254"/>
-<pad name="V_33" x="0.7874" y="-2.7432" drill="0.254"/>
-<pad name="V_34" x="0.7874" y="-1.9812" drill="0.254"/>
-<pad name="V_35" x="0.7874" y="-1.1684" drill="0.254"/>
-<pad name="V_36" x="0.7874" y="-0.4064" drill="0.254"/>
-<pad name="V_37" x="0.7874" y="0.4064" drill="0.254"/>
-<pad name="V_38" x="0.7874" y="1.1684" drill="0.254"/>
-<pad name="V_39" x="0.7874" y="1.9812" drill="0.254"/>
-<pad name="V_40" x="0.7874" y="2.7432" drill="0.254"/>
-<pad name="V_41" x="0.7874" y="3.556" drill="0.254"/>
-<pad name="V_42" x="1.5748" y="-3.556" drill="0.254"/>
-<pad name="V_43" x="1.5748" y="-2.7432" drill="0.254"/>
-<pad name="V_44" x="1.5748" y="-1.9812" drill="0.254"/>
-<pad name="V_45" x="1.5748" y="-1.1684" drill="0.254"/>
-<pad name="V_46" x="1.5748" y="-0.4064" drill="0.254"/>
-<pad name="V_47" x="1.5748" y="0.4064" drill="0.254"/>
-<pad name="V_48" x="1.5748" y="1.1684" drill="0.254"/>
-<pad name="V_49" x="1.5748" y="1.9812" drill="0.254"/>
-<pad name="V_50" x="1.5748" y="2.7432" drill="0.254"/>
-<pad name="V" x="1.5748" y="3.556" drill="0.254"/>
 <wire x1="-3.0988" y1="-7.0612" x2="3.0988" y2="-7.0612" width="0.1524" layer="51"/>
 <wire x1="3.0988" y1="7.0612" x2="0.3048" y2="7.0612" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="7.0612" x2="-0.3048" y2="7.0612" width="0.1524" layer="51"/>
@@ -565,6 +515,38 @@
 <wire x1="2.2098" y1="-4.191" x2="1.778" y2="-4.191" width="0.1524" layer="29"/>
 <wire x1="1.778" y1="-4.191" x2="1.778" y2="4.191" width="0.1524" layer="29"/>
 <text x="-3.4544" y="-6.985" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+<pad name="P$1" x="-1.524" y="3.556" drill="0.3048" shape="square"/>
+<pad name="P$2" x="-0.508" y="3.556" drill="0.3048" shape="square"/>
+<pad name="P$3" x="0.508" y="3.556" drill="0.3048" shape="square"/>
+<pad name="P$4" x="1.524" y="3.556" drill="0.3048" shape="square"/>
+<pad name="P$5" x="-1.524" y="2.54" drill="0.3048" shape="square"/>
+<pad name="P$6" x="-0.508" y="2.54" drill="0.3048" shape="square"/>
+<pad name="P$7" x="0.508" y="2.54" drill="0.3048" shape="square"/>
+<pad name="P$8" x="1.524" y="2.54" drill="0.3048" shape="square"/>
+<pad name="P$9" x="-1.524" y="1.524" drill="0.3048" shape="square"/>
+<pad name="P$10" x="-0.508" y="1.524" drill="0.3048" shape="square"/>
+<pad name="P$11" x="0.508" y="1.524" drill="0.3048" shape="square"/>
+<pad name="P$12" x="1.524" y="1.524" drill="0.3048" shape="square"/>
+<pad name="P$13" x="-1.524" y="0.508" drill="0.3048" shape="square"/>
+<pad name="P$14" x="-0.508" y="0.508" drill="0.3048" shape="square"/>
+<pad name="P$15" x="0.508" y="0.508" drill="0.3048" shape="square"/>
+<pad name="P$16" x="1.524" y="0.508" drill="0.3048" shape="square"/>
+<pad name="P$17" x="-1.524" y="-0.508" drill="0.3048" shape="square"/>
+<pad name="P$18" x="-0.508" y="-0.508" drill="0.3048" shape="square"/>
+<pad name="P$19" x="0.508" y="-0.508" drill="0.3048" shape="square"/>
+<pad name="P$20" x="1.524" y="-0.508" drill="0.3048" shape="square"/>
+<pad name="P$21" x="-1.524" y="-1.524" drill="0.3048" shape="square"/>
+<pad name="P$22" x="-0.508" y="-1.524" drill="0.3048" shape="square"/>
+<pad name="P$23" x="0.508" y="-1.524" drill="0.3048" shape="square"/>
+<pad name="P$24" x="1.524" y="-1.524" drill="0.3048" shape="square"/>
+<pad name="P$25" x="-1.524" y="-2.54" drill="0.3048" shape="square"/>
+<pad name="P$26" x="-0.508" y="-2.54" drill="0.3048" shape="square"/>
+<pad name="P$27" x="0.508" y="-2.54" drill="0.3048" shape="square"/>
+<pad name="P$28" x="1.524" y="-2.54" drill="0.3048" shape="square"/>
+<pad name="P$29" x="-1.524" y="-3.556" drill="0.3048" shape="square"/>
+<pad name="P$30" x="-0.508" y="-3.556" drill="0.3048" shape="square"/>
+<pad name="P$31" x="0.508" y="-3.556" drill="0.3048" shape="square"/>
+<pad name="P$32" x="1.524" y="-3.556" drill="0.3048" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -639,7 +621,7 @@
 <connect gate="A" pin="BST_A" pad="24"/>
 <connect gate="A" pin="BST_B" pad="33"/>
 <connect gate="A" pin="BST_C" pad="43"/>
-<connect gate="A" pin="EPAD" pad="EPAD"/>
+<connect gate="A" pin="EPAD" pad="EPAD P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32"/>
 <connect gate="A" pin="GND" pad="37"/>
 <connect gate="A" pin="GND_2" pad="13"/>
 <connect gate="A" pin="GND_3" pad="36"/>
